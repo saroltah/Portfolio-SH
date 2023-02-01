@@ -43,11 +43,11 @@ body {
   padding: 15px 30px;
   margin-top: 30px;
 }
-.city-name {
+.project-name {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
-.city-description,
+.project-description,
 .about-me-paragraph {
   font-size: 16px;
   line-height: 30px;
@@ -62,7 +62,7 @@ body {
   border: 1px solid var(--secondary-button-color);
   text-align: center;
 }
-.city-image {
+.project-image {
   max-width: 500px;
 }
 
@@ -87,36 +87,36 @@ body {
 }
 
 .content-container h2,
-.city-container h2 {
+.project-container h2 {
   font-weight: bold;
   color: var(--secondary-text-color);
 }
 .content-container h2 {
   font-size: 18px;
 }
-.city-container h2 {
+.project-container h2 {
   font-size: 25px;
 }
-.city-container {
+.project-container {
   text-align: center;
 }
 .content-container,
-.city-container {
+.project-container {
   padding: 200px 20px 30px 20px;
 }
 .content-inner {
   margin-top: -20px;
 }
-.best-sights-name {
+.page-number {
   font-size: 18px;
 }
-.wiki {
+.main-link {
   color: var(--secondary-button-color);
 }
-.wiki-link {
+.main-link-to-site {
   font-size: 15px;
 }
-.my-cities-name {
+.my-projects-name {
   font-size: 40px;
 }
 .contact-form {
@@ -184,7 +184,7 @@ h4 {
 }
 
 @media (max-width: 1200px) {
-  .city-name {
+  .project-name {
     font-size: 50px;
   }
   .hero {
@@ -199,7 +199,7 @@ h4 {
   }
 }
 @media (max-width: 991px) {
-  .city-name {
+  .project-name {
     text-align: center;
     margin-bottom: 30px;
     font-size: 42px;
@@ -230,7 +230,7 @@ h4 {
   body {
     margin-bottom: 40px;
   }
-  .city-description {
+  .project-description {
     padding: 0px 15px;
   }
 
@@ -243,18 +243,18 @@ h4 {
     border: 3px solid var(--secondary-button-color);
   }
   .content-container,
-  .city-container {
+  .project-container {
     padding-top: 140px;
     padding-bottom: 0px;
     text-align: center;
   }
-  .best-sights-name {
+  .page-number {
     font-size: 14px;
   }
-  .wiki-link {
+  .main-link {
     font-size: 14px;
   }
-  .my-cities-name {
+  .my-projects-name {
     font-size: 18px;
   }
   .front-contact {
@@ -279,7 +279,7 @@ h4 {
     padding-left: 20px;
   }
   .content-container,
-  .city-container {
+  .project-container {
     padding-top: 100px;
   }
   .menu {
