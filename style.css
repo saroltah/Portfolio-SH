@@ -182,6 +182,14 @@ h4 {
 .contact-page {
   padding-bottom: 100px;
 }
+.under-construction {
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background-color: #ed799b;
+  margin-bottom: 30px;
+  margin-top: -60px;
+}
 
 @media (max-width: 1200px) {
   .project-name {
