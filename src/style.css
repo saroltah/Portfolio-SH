@@ -2,3 +2,6 @@ img,
 .image {
   max-width: 300px;
 }
+body {
+  font-family: "Hind Madurai", sans-serif;
+}
