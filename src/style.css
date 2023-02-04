@@ -4,4 +4,12 @@ img,
 }
 body {
   font-family: "Hind Madurai", sans-serif;
+  background: linear-gradient(
+    247deg,
+    rgb(164, 71, 99) 0%,
+    rgb(5, 1, 18) 81%,
+    rgb(5, 1, 18) 100%
+  );
+  color: white;
+  margin: 50px 50px;
 }
