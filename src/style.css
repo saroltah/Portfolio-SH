@@ -1,15 +1,82 @@
-img,
-.image {
+img {
   max-width: 300px;
 }
 body {
-  font-family: "Hind Madurai", sans-serif;
   background: linear-gradient(
-    247deg,
-    rgb(164, 71, 99) 0%,
-    rgb(5, 1, 18) 81%,
-    rgb(5, 1, 18) 100%
+    360deg,
+    rgb(96, 9, 58) 0%,
+    rgb(77, 6, 47) 36%,
+    rgb(4, 4, 4) 100%
   );
   color: white;
   margin: 50px 50px;
+}
+.name {
+  font-size: 150px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  line-height: 130px;
+}
+.title {
+  font-size: 45px;
+}
+.image-about-me {
+  max-width: 250px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.coming-from {
+  font-size: 20px;
+}
+.info-about-me {
+  margin: 70px 0px;
+}
+.technologies {
+  margin-top: 40px;
+}
+.coding-skills {
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  margin-right: 50px;
+  line-height: 23px;
+}
+.free-time {
+  font-size: 18px;
+  line-height: 30px;
+}
+.languages {
+  margin: 30px 0px;
+}
+.check-out {
+  font-size: 18px;
+}
+.projects {
+  margin: 0px 40px;
+}
+.project-image {
+  margin: 30px 0px;
+}
+
+.contact-form {
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 30px 30px;
+  text-align: center;
+  display: block;
+  margin: 60px 300px 40px 300px;
+}
+.link {
+  color: white;
+  padding: 20px;
+}
+.icon {
+  font-size: 30px;
+}
+.get-in-touch {
+  font-size: 30px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
