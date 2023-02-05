@@ -197,7 +197,7 @@ body {
 @media (max-width: 427px) {
   .link {
     font-size: 15px;
-    padding: 0px;
+    padding: 2px;
   }
   .name {
     font-size: 70px;
