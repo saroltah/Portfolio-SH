@@ -55,6 +55,7 @@ body {
 }
 .check-out {
   font-size: 18px;
+  margin-bottom: 20px;
 }
 .projects {
   margin: 0px 40px;
@@ -68,6 +69,9 @@ body {
 .project-description {
   text-align: justify;
   margin-top: 20px;
+}
+.project-about{
+  color:rgb(203 238 241)
 }
 .contact-form {
   font-size: 18px;
