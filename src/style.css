@@ -1,10 +1,16 @@
-body {
-  background: linear-gradient(
+:root {
+  --light-pink: #edc4d1;
+  --gradient-pink: linear-gradient(
     360deg,
     rgb(96, 9, 58) 0%,
     rgb(77, 6, 47) 36%,
     rgb(4, 4, 4) 100%
   );
+  --light-blue: rgb(203 238 241);
+  --dark-pink: #f51095;
+}
+body {
+  background: linear-gradient(var(--gradient-pink));
   color: white;
   margin: 50px 50px;
 }
@@ -14,7 +20,7 @@ body {
   margin-bottom: 60px;
   line-height: 130px;
   text-shadow: 5px 5px 10px rgba(245, 16, 149, 0.4);
-  color: #f51095;
+  color: var(--dark-pink);
 }
 .title {
   font-size: 45px;
@@ -33,7 +39,7 @@ body {
   margin: 70px 0px;
 }
 .main-line {
-  color: #f51095;
+  color: var(--dark-pink);
 }
 .technologies {
   margin-top: 40px;
@@ -71,7 +77,7 @@ body {
   margin-top: 20px;
 }
 .project-about {
-  color: rgb(203 238 241);
+  color: var(--light-blue);
 }
 .contact-form {
   font-size: 18px;
@@ -81,12 +87,7 @@ body {
   text-align: center;
   display: block;
   margin: 60px 300px 40px 300px;
-  background: linear-gradient(
-    360deg,
-    rgb(96, 9, 58) 0%,
-    rgb(77, 6, 47) 36%,
-    rgb(4, 4, 4) 100%
-  );
+  background: linear-gradient(var(--gradient-pink));
 }
 .link {
   padding: 20px;
@@ -100,14 +101,14 @@ body {
   padding-bottom: 40px;
 }
 .url {
-  color: #edc4d1;
+  color: var(--light-pink);
 }
 .ps {
   text-align: center;
 }
 .ps a {
   text-decoration: none;
-  border: 1px solid #edc4d1;
+  border: 1px solid var(--light-pink);
   padding: 5px;
   margin: 10px;
 }
@@ -176,7 +177,7 @@ body {
     margin-top: 25px;
   }
   .check-out {
-    color: #f51095;
+    color: var(--dark-pink);
   }
 }
 @media (max-width: 715px) {
