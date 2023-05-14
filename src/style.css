@@ -9,13 +9,14 @@
   --light-blue: rgb(203 238 241);
   --dark-pink: #f51095;
 }
+
 body {
-  background: linear-gradient(var(--gradient-pink));
+  background: var(--gradient-pink);
   color: white;
   margin: 50px 50px;
 }
-.name {
-  font-size: 150px;
+h1 {
+  size: 150px;
   margin-top: 30px;
   margin-bottom: 60px;
   line-height: 130px;
@@ -87,7 +88,7 @@ body {
   text-align: center;
   display: block;
   margin: 60px 300px 40px 300px;
-  background: linear-gradient(var(--gradient-pink));
+  background: var(--gradient-pink);
 }
 .link {
   padding: 20px;
